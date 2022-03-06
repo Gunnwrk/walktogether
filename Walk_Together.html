@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk Together</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Left Foot -->
+    <div id="sp_LB" style="display:none">
+        <div class="foot2">
+            <input type="image" id="LB" height="900" width="600"
+                src="https://cdn.discordapp.com/attachments/697022027072143390/949295749596864562/Left-B.png">
+        </div>
+    </div>
+    <div id="sp_LG" style="display:none">
+        <div class="foot1">
+            <input type="image" id="LG" height="900" width="600"
+                src="https://cdn.discordapp.com/attachments/697022027072143390/949295749919801394/Left-G.png">
+        </div>
+    </div>
+    <!-- Right Foot -->
+    <div id="sp_RB" style="display:none">
+        <div class="foot3">
+            <input type="image" id="RB" height="900" width="600"
+                src="https://cdn.discordapp.com/attachments/697022027072143390/949295750129545276/Rigth-B.png">
+        </div>
+    </div>
+    <div id="sp_RG" style="display:none">
+        <div class="foot4">
+            <input type="image" id="RG" height="900" width="600"
+                src="https://cdn.discordapp.com/attachments/697022027072143390/949295750318276618/Rigth-G.png">
+        </div>
+    </div>
+
+    <div class="container">
+
+        <button id="button-Start">Start</button>
+        <button id="button-Stop">Stop</button>
+        <button id="button-Reset">Reset</button>
+
+        <label>
+            <h2>Step/Second</h2>
+        </label>
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <button id="button-Up">+</button>
+        <button id="button-Down">-</button>
+
+        <label>
+            <h2>Step</h2>
+        </label>
+        <p><span id="steps">0</span></p>
+        <button id="button-Plus">+</button>
+        <button id="button-Minus">-</button>
+
+        <label>
+            <h2>Step Count</h2>
+        </label>
+        <p><span id="count-steps">0</span></p>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
